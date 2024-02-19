@@ -11,7 +11,7 @@ setTimeout(() => {
 }, 500);
 
 setTimeout(() => {
-  // Need to escape the backslash since it's a special character.
+  
   process.stdout.write('\r\\   '); 
 }, 700);
 
@@ -28,10 +28,10 @@ setTimeout(() => {
 }, 1300);
 
 setTimeout(() => {
-  // Need to escape the backslash since it's a special character.
+  
   process.stdout.write('\r\\   '); 
-}, 700);
+}, 1500);
 
 setTimeout(() => {
   process.stdout.write('\r|   ');
-}, 900);
+}, 1700);
